@@ -2,18 +2,17 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+     font-family: Roboto,Arial,sans-serif;
 }
 .container {
     width:100vw;
     height:100vh;
    
 }
-body {
-    background-color: black;
-}
+
 .navbar{
      display:flex;
-     background-color: rgb(94, 24, 24);
+     background-color: rgb(221, 174, 174);
      justify-content: space-between;
      align-items: center;
      padding: 8px 30px;
@@ -43,13 +42,13 @@ body {
 }
 .centerNav img:nth-child(2) {
     padding: 3px 15px;
-    background-color: #222222;
+    background-color: #796d6d;
     border-top-right-radius:20px;
     border-bottom-right-radius:20px;
 }
 .centerNav img:nth-child(3) {
     margin-left: 16px;
-    background-color: #222222;
+    background-color: #8b8484;
     border-radius: 50px;
     padding: 8px;
 }
@@ -60,4 +59,77 @@ body {
 .rightNav img:nth-child(3) {
      width:40px;
      border-radius: 30px;
+}
+.ytPremium {
+   
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+  
+    height: 61%;
+    gap: 50px;
+}
+.ytDesc > h2 { 
+
+    text-align: center;
+    font-weight: lighter;
+    font-size: 32px;
+    opacity: 0.8;
+
+}
+.ytPremiumDetails {
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.ytPremiumDetails > button {
+    padding: 15px 20px;
+    border-radius: 40px;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #3ea6ff;
+}
+.ytPremiumDetails p:nth-child(2) {
+
+    font-size: 18px;
+    /* line-height: 100px; */
+   font-weight: 100;
+
+}
+
+.annual {
+    color: #3ea6ff;
+}
+
+.ytPremiumDetails :nth-child(4) {
+    color: #3ea6ff;
+}
+.features {
+
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 39%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;;
+
+}
+.features :nth-child(1),.features :nth-child(2),.features :nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.features :nth-child(1) > p,.features :nth-child(2) > p,.features :nth-child(3) > p {
+      
+     color: rgba(232, 226, 226, 0.639);
 }
