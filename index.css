@@ -13,11 +13,15 @@
 }
 
 .navbar{
+ 
+     position:sticky;
+     top:0;
      display:flex;
      background-color: rgb(221, 174, 174);
      justify-content: space-between;
      align-items: center;
      padding: 8px 30px;
+     
      
 }
 .leftnav {
@@ -134,4 +138,20 @@
 .features :nth-child(1) > p,.features :nth-child(2) > p,.features :nth-child(3) > p {
       
      color: rgba(232, 226, 226, 0.639);
+}
+
+.bpg1{
+  background-image: url(a/bg1.jpeg);
+  width: 100%;
+  height: 55%;
+  background-size: cover;
+}
+.details {
+    padding:250px 100px 100px 1000px ;
+
+   
+}
+.details > p {
+   font-size:small;
+   font-weight: 50;
 }
