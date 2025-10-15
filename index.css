@@ -1,12 +1,14 @@
 /* test change */
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
      font-family: Roboto,Arial,sans-serif;
+ 
 }
 .container {
+    
     width:100vw;
     height:100vh;
    
@@ -154,4 +156,70 @@
 .details > p {
    font-size:small;
    font-weight: 50;
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+.bpg2{
+  background-image: url(a/bg2.jpeg);
+  width: 100%;
+  height: 55%;
+  background-size: cover;
+}
+.details2 {
+    padding:250px 0px 0px 600px ;
+
+   
+}
+.details2 > p {
+   font-size:small;
+   font-weight: 50;
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.bpg3{
+  background-image: url(a/bg3.jpeg);
+  width: 100%;
+  height: 55%;
+  background-size: cover;
+}
+.details3 {
+    padding:250px 0px 0px 600px ;
+
+   
+}
+.details3 > p {
+   font-size:small;
+   font-weight: 50;
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+.bpg4{
+  background-image: url(a/bg4.jpeg);
+  width: 100%;
+  height: 55%;
+  background-size: cover;
+}
+.details4 {
+    padding:250px 0px 0px 600px ;
+
+   
+}
+.details4 > p {
+   font-size:small;
+   font-weight: 50;
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    
 }
